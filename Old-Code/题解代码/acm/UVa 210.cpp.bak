@@ -1,0 +1,79 @@
+#include <iostream>
+#include <string>
+#include <deque>
+#include <vector>
+#include <map>
+#include <sstream>
+using namespace std;
+deque<deque<string> > waiting;
+deque<deque<string> > zuzhi;
+vector<map<string, int> > com_nums;
+bool lock = false;
+void dealwith(string s, int which_com){
+	if (s == "lock"){
+		if (lock){
+			deque<string> cur_com = waiting.front();
+			waiting.pop_front();
+			zuzhi.push(cur_com);
+		}else lock = true;
+	}else if(s == "unlock"){
+		deque<string> first_zuzhi = zuzhi.front();
+		zuzhi.pop();
+		waiting.push_front(first_zuzhi);
+	}else if(s == "end"){
+		waiting.pop_front();
+	}else{
+		vector<string> detail;
+		string de_s;
+		for (int i = 0; i < s.length(); i++){
+			if (s[i] != ' '){
+				de_s += s[i];
+			}else{
+				detail.push_back(de_s);
+				de_s.clear();
+			}
+		}
+		detail.push_back(de_s);
+		if (detail[0] == "print"){
+			
+		}
+	}
+}
+int Int(deque<string> &com){
+	string s = com[com.size() - 1];
+	
+}
+int main(){
+	int n, Q;
+	vector<int> ts;
+	
+	cin >> n;
+	for(int i = 0; i < 5; i++){
+		int t;
+		cin >> t;
+		ts.push_back(t);
+	}
+	for (int i = 0; i < n; i++){
+		string s;
+		deque<string> com;
+		map<string, int> m;
+		com_nums.push_back(m);
+		while (cin >> s){
+			com.push(s);
+			if (s == "end"){
+				break;
+			}
+		}
+		s.clear();
+		s += i;
+		com.push(s);
+		waiting.push_back(com);
+	}
+	while (!waiting.empty()){
+		deque<string> com;
+		com = waiting.front();
+		string s = com.front();
+		dealwith(s, Int);
+		com.pop();
+	}
+}

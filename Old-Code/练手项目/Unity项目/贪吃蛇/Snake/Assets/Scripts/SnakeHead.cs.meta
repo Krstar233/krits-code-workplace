@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d02153125835d13459a3f40bfa901840
+timeCreated: 1567091239
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Snakebody: {instanceID: 0}
+  - dieEffect: {instanceID: 0}
+  - dieAudio: {fileID: 8300000, guid: 50718bbb50da35e48825ddff31914498, type: 3}
+  - eatAudio: {fileID: 8300000, guid: 9661d6b21551594459659b508d2b928c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

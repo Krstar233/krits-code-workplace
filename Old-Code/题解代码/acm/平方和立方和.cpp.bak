@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+	int m,n,temp,sum1,sum2,i;
+	
+	while (scanf("%d%d",&m,&n)!=EOF)
+	{
+		sum1=sum2=
+		if (m>n)
+		{
+			m=temp;
+			m=n;
+			temp=n;
+		}
+		for (i=m;i<=n;i++)
+		{
+			if (i%2==0)
+				sum1+=i*i;
+			else if (i%2==1)
+				sum2+=i*i*i;
+		}
+		printf("%d %d",sum1,sum2);
+	}
+	return 0;
+}

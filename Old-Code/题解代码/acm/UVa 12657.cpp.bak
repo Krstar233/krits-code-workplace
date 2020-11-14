@@ -1,0 +1,86 @@
+#include <iostream>
+#include <algorithm>
+#include <memory.h>
+
+template typedef long long LL;
+int data[100015];
+int node = 1;
+int left[100015];
+int right[100015];
+int tail = 0;
+int head = 0;
+
+void add(int a){
+	data[node] = a;
+	right[tail] = node;
+	right[node] = -1;
+	left[node] = tail;
+	tail = node;
+	node++;
+}
+void link(int L, int R){
+	right[L] = R;
+	left[R] = L;
+}
+int main(){
+	int n, m;
+	int cases = 0;
+	while (std::cin >> n >> m){
+		left[0] = -1;
+		right[0] = -1;
+		tail = 0;
+		head = 0;
+		node = 1;
+		for (int i = 1; i <= n; i++){
+			add(i);
+		}
+		
+		while (m--){
+			int a, b, c;
+			std::cin >> a;
+			if (a == 4){
+				link(tail,head);
+				tail = right[head];
+				right[head] = -1;
+				left[tail] = -1;
+				std::swap(left, right);
+				
+				for ()
+			}else{
+				std::cin >> b >> c;
+				switch (a){
+					case 1:
+						link(left[b], right[b]);
+						link(left[c], b);
+						link(b, c);
+						break;
+					case 2:
+						link(left[b], right[b]);
+						link(b, right[c]);
+						link(c, b);
+						break;
+					case 3:
+						int b_left = left[b];
+						int c_left = left[c];
+						
+						link(left[c], right[c]);
+						link(c, b);
+						link(b_left, c);
+						link(left[b], right[b]);
+						link(b, right[c_left]);
+						link(c_left, b);
+						break;
+				}
+			}
+		}
+		long long ans = 0;
+		int flag = -1;
+		for (int i = right[head]; i != -1; i = right[i]){
+			flag = -flag;
+			if (flag == 1){
+				ans += data[i];
+			}
+		}
+		printf ("Case %d: %d\n", ++cases, ans);
+	}
+} 

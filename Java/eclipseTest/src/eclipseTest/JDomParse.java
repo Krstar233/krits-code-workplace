@@ -33,7 +33,7 @@ public class JDomParse {
 			//XMLOutputter outputter=new XMLOutputter();
 			//outputter.output(doc,new FileOutputStream(xmlpath));
 		} catch (JDOMException e) {
-			e.printStackTrace();     
+			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (Exception e) {
@@ -60,5 +60,4 @@ public class JDomParse {
 		// TODO Auto-generated method stub
 		new JDomParse();
 	}
-
 }

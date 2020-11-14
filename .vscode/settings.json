@@ -6,5 +6,6 @@
         "xstring": "cpp",
         "string": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "git.ignoreLimitWarning": true
 }
