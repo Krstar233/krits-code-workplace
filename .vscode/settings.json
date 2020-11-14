@@ -1,11 +1,20 @@
 {
     "files.associations": {
-        "*.html": "html",
-        "vector": "cpp",
+        "iostream": "cpp",
         "map": "cpp",
         "xstring": "cpp",
+        "vector": "cpp",
         "string": "cpp",
-        "iostream": "cpp"
-    },
-    "git.ignoreLimitWarning": true
+        "algorithm": "cpp",
+        "stack": "cpp",
+        "iosfwd": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "type_traits": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "fstream": "cpp"
+    }
 }

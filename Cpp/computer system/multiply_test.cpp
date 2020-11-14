@@ -6,7 +6,7 @@ int main(){
     int multiplicand = 1000;
     int product = 0;
 
-    cin >> multiplicand >> multiplier;
+    //cin >> multiplicand >> multiplier;
 
     int count = 0;
     while (count < 32){
