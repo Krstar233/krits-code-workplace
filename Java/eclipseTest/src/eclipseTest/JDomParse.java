@@ -14,31 +14,53 @@ import org.jdom2.output.XMLOutputter;
 
 
 public class JDomParse {
-	public JDomParse(){ 
-        String xmlpath="resources/books.xml";
-		SAXBuilder builder=new SAXBuilder();		
+	private String xmlpath;
+	private SAXBuilder builder;
+	public JDomParse(){
+        xmlpath="resources/books.xml";
+		builder=new SAXBuilder();	
+	}
+	public void printXML() {
 		try {
-			Document doc=builder.build(xmlpath);
-			System.out.println("Before change prices:");
+			Document doc = builder.build(xmlpath);
 			printDocument(doc);
-			Element books=doc.getRootElement();
-		    List<Element> booklist = books.getChildren("book");
-		    for (Element e : booklist) {
-		    	Double price = Double.parseDouble(e.getChildTextTrim("price"));
-		    	price += 20;
-		    	e.getChild("price").setText(price.toString());
-		    }
-		    System.out.println("After change prices:");
-		    printDocument(doc);
-			//XMLOutputter outputter=new XMLOutputter();
-			//outputter.output(doc,new FileOutputStream(xmlpath));
-		} catch (JDOMException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (Exception e) {
+		}catch (Exception e) {
 			e.printStackTrace();
 			// TODO: handle exception
+		}
+	}
+	public void changeXML() {
+		try {
+			Document doc = builder.build(xmlpath);
+			System.out.println("Before changing the XML file:");
+			printDocument(doc);
+			Element books = doc.getRootElement();
+			List<Element> bookList = books.getChildren();
+			for (Element e : bookList) {
+				if (e.getChildTextTrim("name").equals("Lincon")) {
+					e.getChild("price").setText("30.5");
+				}
+			}
+			
+			// add a new book
+			Element newBook = new Element("book");
+			Element newBookId = new Element("bookId").setText("5");
+			Element newBookName = new Element("name").setText("The Story Of The Bible");
+			Element newBookPrice = new Element("price").setText("39.0");
+			
+			newBook.addContent(newBookId);
+			newBook.addContent(newBookName);
+			newBook.addContent(newBookPrice);
+			
+			bookList.add(newBook);
+			
+			XMLOutputter outputter = new XMLOutputter();
+			outputter.output(doc, new FileOutputStream(xmlpath));
+			System.out.println("After changing the XML file:");
+			printDocument(doc);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
 		}
 	}
 	private void printDocument(Document doc) throws Exception{
@@ -58,6 +80,9 @@ public class JDomParse {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new JDomParse();
+		JDomParse jDomParse = new JDomParse();
+		
+		jDomParse.printXML();
+		//jDomParse.changeXML();
 	}
 }
