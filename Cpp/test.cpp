@@ -1,21 +1,30 @@
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
 int main(){
-    int multiplier = 1001;
-    int multiplicand = 1000;
-    int product = 0;
+    int n, m;
 
-    cin >> multiplicand >> multiplier;
+    cin >> n >> m;
 
-    int count = 0;
-    while (count < 32){
-        if (multiplier & 1){
-            product += multiplicand;
+    vector<long> arr(n);
+
+    for (int i = 1; i <= m; i++){
+        int l, r;
+        cin >> l >> r;
+
+        for (int j = l; j <= r; j++){
+            arr[j] = i;
         }
-        multiplicand <<= 1;
-        multiplier >>= 1;
-        count++;
     }
-    cout << product << endl;
+
+    long ans  = 0;
+
+    for (int i = 0; i < n; i++){
+        ans += i * arr[i];
+    }
+
+    cout << ans % 100000009 << endl;
+    return 0;
 }
