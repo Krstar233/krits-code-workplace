@@ -17,5 +17,35 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/window文档/文档/深圳大学/大三/中间件/实验3/Json-lib资源/libs/commons-collections-3.2.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/window文档/文档/深圳大学/大三/中间件/实验3/Json-lib资源/libs/commons-lang-2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/window文档/文档/深圳大学/大三/中间件/实验3/Json-lib资源/libs/commons-logging-1.1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/window文档/文档/深圳大学/大三/中间件/实验3/Json-lib资源/libs/ezmorph-1.0.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/window文档/文档/深圳大学/大三/中间件/实验3/Json-lib资源/libs/json-lib-2.4-jdk15.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/window文档/文档/深圳大学/大三/中间件/实验3/Json-lib资源/libs/commons-beanutils-1.9.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -7,4 +7,5 @@
  */
 module eclipseTest {
 	requires jdom;
+	requires json.lib;
 }
