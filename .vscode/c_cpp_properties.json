@@ -1,20 +1,15 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Windows",              //环境名
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**"   //指定头文件路径,这里指定的是当前工作目录，如有需要在后面添加，添加方式是加入 "/to/path" 格式的路径
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "windowsSdkVersion": "10.0.10240.0",
-            "compilerPath": "D:/Visual Stdio Community 2017/VC/Tools/MSVC/14.10.25017/bin/Hostx64/x64/cl.exe",
+            "defines": [],
+            "compilerPath": "C:\\MinGW\\bin\\g++.exe",   //编译器的路径，可根据自己的安装情况进行设置
             "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "msvc-x64"
+            "cppStandard": "c++11",       //设置使用的 C/C++ 标准
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4
