@@ -18,7 +18,6 @@ public:
             if (it->second != 0)
                 return false;
         }
-
         return true;
     }
 };
