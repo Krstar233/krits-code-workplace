@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middleware Ex3</title>
+
+    <script>
+        function func1() {
+            var obj = {'name':'Huang Naijian','age':20};
+            alert(obj.name + " " + obj.age);
+        }
+        function func2(){
+            var obj = {
+                'name':'Luffy',
+                'address':
+                {
+                    'city':'Shenzhen',
+                    'street':'Qiuse',
+                    'room':1507
+                }
+            }
+            alert(obj.name + " " + obj.address + " " + obj.address.city);
+        }
+    </script>
+</head>
+<body>
+    <a href="" onclick="func1()">查看对象属性1</a>
+    <br>
+    <a href="" onclick="func2()">查看对象属性2</a>
+
+</body>
+</html>
