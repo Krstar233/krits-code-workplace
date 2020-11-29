@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middleware Ex3-2</title>
+    <script type="text/javascript">
+        function fun(){
+            var students = [
+                {'stuNo':2018151070, 'name':'黄乃建'},
+                {'stuNo':20170032, 'name':'赵多多'}
+            ];
+            var score = {
+                'stuNo':2018151070,
+                'name':'黄乃建',
+                'scores':[
+                    {'课程':'中间件技术','成绩':90},
+                    {'课程':'数据结构','成绩':86},
+                    {'课程':'计算机网络','成绩':80}
+                ]
+            };
+            var msg = students[0].stuNo + " " + students[0].name + "\n";
+            for (var i = 0; i < score.scores.length; i++){
+                msg += score.scores[i].课程 + " " + score.scores[i].成绩 + "\n";
+            }
+            alert(msg);
+        }
+    </script>
+</head>
+<body>
+    <a href="" onclick="fun()">点击查看信息</a>
+</body>
+</html>

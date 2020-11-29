@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middleware Ex3-3</title>
+    <script>
+        function jsStrToObj(){
+            var str = '{"name":"Luffy","age":17}';
+            var obj = JSON.parse(str);
+            alert(obj.name);
+        }
+        function jsStrToArr(){
+            var str = '[{"stuNo":20170031, "name":"何立立"}, {"stuNo":20170032, "name":"赵多多"}]';
+            var obj = JSON.parse(str);
+            alert(obj[1].name);
+        }
+        function jsObjToStr(){
+            var obj = [{"stuNo":20170031, "name":"何立立"}, {"stuNo":20170032, "name":"赵多多"}];
+            var str = JSON.stringify(obj);
+            alert(str);
+        }
+    </script>
+</head>
+<body>
+    <a href="javascript:;" onclick="jsStrToObj()">JSON对象转换为JSON字符串</a>
+    <br>
+    <a href="javascript:;" onclick="jsStrToArr()">JSON字符串转换为JSON数组</a>
+    <br>
+    <a href="javascript:;" onclick="jsObjToStr()">JSON对象转换为JSON字符串</a>
+</body>
+</html>
