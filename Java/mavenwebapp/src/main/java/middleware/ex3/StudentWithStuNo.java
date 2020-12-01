@@ -13,6 +13,6 @@ public class NewStudent extends Student{
 
     @Override
     public String toString() {
-        return getName() + " " + getAge() + " " +getStuNo();
+        return getName() + " " +getStuNo();
     }
 }
