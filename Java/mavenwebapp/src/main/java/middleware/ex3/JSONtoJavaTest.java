@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-class JSONtoJavaTest {
+public class JSONtoJavaTest {
     private String javaObjToJSONstr(Student student){
         String name = student.getName();
         int age = student.getAge();
@@ -17,7 +17,7 @@ class JSONtoJavaTest {
     }
 
     private String javaArrToJSONstr(List<Student> students){
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (Iterator<Student> it = students.iterator(); it.hasNext();){
             sb.append(javaObjToJSONstr(it.next()));
@@ -29,18 +29,18 @@ class JSONtoJavaTest {
         return sb.toString();
     }
 
-    private Student jsonStrTojavaObj(String jsonStr){
+    private Student jsonStrTojavaObj(String jsonStr, Class studentClass){
         JSONObject jsonObject = JSONObject.fromObject(jsonStr);
-        Student student = (Student) JSONObject.toBean(jsonObject, Student.class);
+        Student student = (Student) JSONObject.toBean(jsonObject, studentClass);
         //System.out.println(student);
         return student;
     }
 
-    private List<Student> jsonStrToJavaArry(String jsonStr){
+    private List<Student> jsonStrToJavaArry(String jsonStr, Class studentClass){
         List<Student> list = new ArrayList<>();
         JSONArray jsonArray = JSONArray.fromObject(jsonStr);
         for (Object obj : jsonArray){
-            Student student = (Student) JSONObject.toBean((JSONObject) obj, NewStudent.class);
+            Student student = (Student) JSONObject.toBean((JSONObject) obj, studentClass);
             list.add(student);
         }
         return list;
@@ -61,13 +61,13 @@ class JSONtoJavaTest {
         studentList.add(student3);
         System.out.println(test.javaArrToJSONstr(studentList));
 
-        String jsonStr1 = "{\"name\":\"方依依\",\"age\":17}";
-        System.out.println(test.jsonStrTojavaObj(jsonStr1));
+        String jsonStr1 = "{'name':'方依依','age':17}";
+        System.out.println(test.jsonStrTojavaObj(jsonStr1, Student.class));
 
-//        String jsonStr2 = "[{\"stuNo\":20170031, \"name\":\"何立立\"}, {\"stuNo\":20170032, \"name\":\"赵多多\"}]";
-//        List<Student> list = test.jsonStrToJavaArry(jsonStr2);
-//        for (Student stu : list){
-//            System.out.println(stu);
-//        }
+        String jsonStr2 = "[{'stuNo':20170031, 'name':'何立立'}, {'stuNo':20170032, 'name':'赵多多'}]";
+        List<Student> list = test.jsonStrToJavaArry(jsonStr2, StudentWithStuNo.class);
+        for (Student stu : list){
+            System.out.println(stu);
+        }
     }
 }

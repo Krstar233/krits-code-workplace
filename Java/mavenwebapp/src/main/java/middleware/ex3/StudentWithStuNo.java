@@ -1,6 +1,6 @@
 package middleware.ex3;
 
-public class NewStudent extends Student{
+public class StudentWithStuNo extends Student{
     private String stuNo;
 
     public String getStuNo() {

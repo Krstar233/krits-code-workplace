@@ -1,7 +1,6 @@
 package middleware.ex2;
 
 import java.io.*;
-
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
