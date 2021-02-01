@@ -7,8 +7,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f480a593-930d-4138-b767-ae13fec0e3a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Solution321.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSpringMVC/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSpringMVC/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSpringMVC/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSpringMVC/src/main/java/mvc/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSpringMVC/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSpringMVC/src/main/webapp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connectionpool/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connectionpool/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/mvc/MVCPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/mvc/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/mvc/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/mvc/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mongodb/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/ReflectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/aop/Logging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/aop/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/aop/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/InitHelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/JavaCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/Minecraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/SpellChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/ioc/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/jdbc/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/jdbc/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/jdbc/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/jdbc/StudentJDBCTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/jdbc/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/mvc/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springlearning/mvc/RestfulController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Beans2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans-jdbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/mybatisDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/src/main/java/org/example/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/src/main/java/org/example/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/src/main/java/org/example/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servers/.settings/org.eclipse.wst.server.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/.settings/org.eclipse.wst.server.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servers/Tomcat v8.5 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/Tomcat v8.5 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/.idea/artifacts/helloweb_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/helloweb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/out/artifacts/helloweb_war_exploded/WEB-INF/classes/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/out/artifacts/helloweb_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/out/artifacts/helloweb_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/out/production/helloweb/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/src/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloweb/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mavenwebapp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mavenwebapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebapp.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mavenwebapp/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mavenwebapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mavenwebapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +110,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -49,23 +142,39 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Solution321">
-    <configuration name="JSONtoJavaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="middleware.ex3.JSONtoJavaTest" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\krits-code-workplace\Java\mavenwebapp\src\main\webapp" />
+      <recent name="E:\krits-code-workplace\Java\mavenwebapp\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\krits-code-workplace\Java\mavenwebapp\src\main\webapp\WEB-INF" />
+      <recent name="E:\krits-code-workplace\Java\mavenwebapp\src\main\resources" />
+      <recent name="E:\krits-code-workplace\Java\mavenwebapp\target\mavenwebapp\WEB-INF\classes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MainApp">
+    <configuration name="JDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mongodb.JDBCTest" />
       <module name="mavenwebapp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="middleware.ex3.*" />
+          <option name="PATTERN" value="mongodb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution321" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution321" />
+    <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springlearning.aop.MainApp" />
       <module name="mavenwebapp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="springlearning.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,15 +195,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="middleware.ex3.Test" />
+    <configuration name="MainApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springlearning.jdbc.MainApp" />
       <module name="mavenwebapp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="middleware.ex3.*" />
+          <option name="PATTERN" value="springlearning.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springlearning.ioc.MainApp" />
+      <module name="mavenwebapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springlearning.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mavenwebapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springboot.MainApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,11 +306,21 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.MainApp (1)" />
+      <item itemvalue="Application.MainApp (2)" />
+      <item itemvalue="Application.JDBCTest" />
+      <item itemvalue="Spring Boot.MainApp" />
+      <item itemvalue="Tomcat Server.MavenWebApp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution321" />
-        <item itemvalue="Application.JSONtoJavaTest" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Spring Boot.MainApp" />
+        <item itemvalue="Application.JDBCTest" />
+        <item itemvalue="Application.MainApp (2)" />
+        <item itemvalue="Application.MainApp (1)" />
+        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +337,25 @@
       <workItem from="1606746890360" duration="3315000" />
       <workItem from="1606818537177" duration="7717000" />
       <workItem from="1606916494889" duration="3481000" />
+      <workItem from="1607581533332" duration="77000" />
+      <workItem from="1608133905868" duration="2568000" />
+      <workItem from="1608168559203" duration="16000" />
+      <workItem from="1608180418337" duration="10613000" />
+      <workItem from="1608204350085" duration="7582000" />
+      <workItem from="1608268197174" duration="1586000" />
+      <workItem from="1608272588162" duration="2829000" />
+      <workItem from="1608278448364" duration="2192000" />
+      <workItem from="1608280673476" duration="6472000" />
+      <workItem from="1608292119564" duration="7069000" />
+      <workItem from="1608308226616" duration="809000" />
+      <workItem from="1608346351980" duration="1195000" />
+      <workItem from="1608447571579" duration="5373000" />
+      <workItem from="1608598700773" duration="91000" />
+      <workItem from="1608599188935" duration="2648000" />
+      <workItem from="1608625752543" duration="36000" />
+      <workItem from="1608650872621" duration="1441000" />
+      <workItem from="1608687233437" duration="1175000" />
+      <workItem from="1608791105701" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="owo">
       <created>1606822417845</created>
@@ -211,74 +375,102 @@
     <option name="LAST_COMMIT_MESSAGE" value="owo" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="395" y="110" key="#Inspections" timestamp="1608295630929">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="395" y="110" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1608295630929" />
     <state x="248" y="7" key="#Project_Structure" timestamp="1606750108871">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="248" y="7" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1606750108871" />
-    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606824202911">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608293775457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1606824202911" />
-    <state x="517" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1606823825854">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1608293775457" />
+    <state x="517" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1608449980962">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="517" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606823825854" />
+    <state x="517" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1608449980962" />
+    <state x="490" y="70" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1608292236013">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="490" y="70" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1608292236013" />
     <state x="351" y="0" key="CommitChangelistDialog2" timestamp="1606822416832">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="351" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1606822416832" />
-    <state x="544" y="173" key="FileChooserDialogImpl" timestamp="1606822669756">
+    <state x="340" y="59" key="FileChooserDialogImpl" timestamp="1608625784462">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="544" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606822669756" />
-    <state width="1537" height="336" key="GridCell.Tab.0.bottom" timestamp="1606919990708">
+    <state x="340" y="59" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608625784462" />
+    <state width="1537" height="114" key="GridCell.Tab.0.bottom" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606919990708" />
-    <state width="1537" height="336" key="GridCell.Tab.0.center" timestamp="1606919990706">
+    <state width="1537" height="114" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1537" height="114" key="GridCell.Tab.0.center" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606919990706" />
-    <state width="1537" height="336" key="GridCell.Tab.0.left" timestamp="1606919990705">
+    <state width="1537" height="114" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1537" height="114" key="GridCell.Tab.0.left" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606919990705" />
-    <state width="1537" height="336" key="GridCell.Tab.0.right" timestamp="1606919990707">
+    <state width="1537" height="114" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1537" height="114" key="GridCell.Tab.0.right" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606919990707" />
-    <state width="1537" height="336" key="GridCell.Tab.1.bottom" timestamp="1606919990709">
+    <state width="1537" height="114" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1537" height="114" key="GridCell.Tab.1.bottom" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606919990709" />
-    <state width="1537" height="336" key="GridCell.Tab.1.center" timestamp="1606919990709">
+    <state width="1537" height="114" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1537" height="114" key="GridCell.Tab.1.center" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606919990709" />
-    <state width="1537" height="336" key="GridCell.Tab.1.left" timestamp="1606919990709">
+    <state width="1537" height="114" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1537" height="114" key="GridCell.Tab.1.left" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606919990709" />
-    <state width="1537" height="336" key="GridCell.Tab.1.right" timestamp="1606919990709">
+    <state width="1537" height="114" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1537" height="114" key="GridCell.Tab.1.right" timestamp="1608462430206">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="336" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606919990709" />
-    <state width="1055" height="316" key="GridCell.Tab.2.bottom" timestamp="1606751529687">
+    <state width="1537" height="114" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1608462430206" />
+    <state width="1380" height="467" key="GridCell.Tab.2.bottom" timestamp="1608302651167">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1055" height="316" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606751529687" />
-    <state width="1055" height="316" key="GridCell.Tab.2.center" timestamp="1606751529686">
+    <state width="1380" height="467" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608302651167" />
+    <state width="1380" height="467" key="GridCell.Tab.2.center" timestamp="1608302651167">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1055" height="316" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1606751529686" />
-    <state width="1055" height="316" key="GridCell.Tab.2.left" timestamp="1606751529686">
+    <state width="1380" height="467" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1608302651167" />
+    <state width="1380" height="467" key="GridCell.Tab.2.left" timestamp="1608302651167">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1055" height="316" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1606751529686" />
-    <state width="1055" height="316" key="GridCell.Tab.2.right" timestamp="1606751529686">
+    <state width="1380" height="467" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1608302651167" />
+    <state width="1380" height="467" key="GridCell.Tab.2.right" timestamp="1608302651167">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1055" height="316" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1606751529686" />
+    <state width="1380" height="467" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1608302651167" />
+    <state width="1380" height="336" key="GridCell.Tab.3.bottom" timestamp="1608294190792">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1380" height="336" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608294190792" />
+    <state width="1380" height="336" key="GridCell.Tab.3.center" timestamp="1608294190792">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1380" height="336" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1608294190792" />
+    <state width="1380" height="336" key="GridCell.Tab.3.left" timestamp="1608294190792">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1380" height="336" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1608294190792" />
+    <state width="1380" height="336" key="GridCell.Tab.3.right" timestamp="1608294190792">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1380" height="336" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1608294190792" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1608450040991">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1608450040991" />
     <state x="270" y="13" key="SettingsEditor" timestamp="1606819972231">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -287,10 +479,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606822420620" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606820327109">
+    <state x="178" y="92" key="new project wizard" timestamp="1608791172622">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606820327109" />
+    <state x="178" y="92" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1608791172622" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608268458552">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1608268458552" />
+    <state x="449" y="115" key="spring file set editor" timestamp="1608292414888">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="115" key="spring file set editor/0.0.1536.864@0.0.1536.864" timestamp="1608292414888" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

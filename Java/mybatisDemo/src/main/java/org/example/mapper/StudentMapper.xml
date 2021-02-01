@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.mapper.StudentMapper">
+    <select id="selectStudentById" resultType="org.example.pojo.Student">
+        select * from Student where id = #{id}
+    </select>
+    <insert id="insert">
+        insert into Student (id, name, age)
+        values(#{id}, #{name}, #{age})
+    </insert>
+    <update id="updateByPrimaryKey">
+        update Student set name=#{name},age=#{age} where id=#{id}
+    </update>
+    <delete id="deletByPrimaryKey">
+        delete from Student where id = #{id}
+    </delete>
+</mapper>
