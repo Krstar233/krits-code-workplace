@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script>
+        function fun(){
+            $.ajax({
+                method: "POST",
+                url: "http://localhost:8080/text", 
+                data: $("#form1").serialize(),
+                success: function(){
+                    alert("SUCCESS!");
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" onsubmit="return false" action="javascript:;" method="post">
+        <input type="text" name="text">
+        <input type="button" value="确认" onclick="fun()">
+    </form>
+</body>
+</html>

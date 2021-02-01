@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+    default-init-method="init" default-destroy-method="destroy">
+
+    <bean id="beanTeamplate" abstract="true">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World!"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
+    <bean id="helloworld" class="springlearning.ioc.HelloWorld" scope="singleton">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World!"/>
+    </bean>
+
+    <bean id="minecraft" class="springlearning.ioc.Minecraft" parent="beanTeamplate">
+        <property name="message1" value="Hello MC" />
+        <property name="message3" value="Hello MC MC MC" />
+    </bean>
+    <bean class="springlearning.ioc.InitHelloWorld"></bean>
+</beans>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    <context:component-scan base-package="springlearning.ioc"/>
+
+    <bean id="student" class="springlearning.ioc.Student">
+        <property name="name" value="krits"/>
+        <property name="age" value="20"/>
+    </bean>
+
+    <bean id="javaCollection" class="springlearning.ioc.JavaCollection">
+        <property name="addressList">
+            <list>
+                <value>INDIA</value>
+                <value>CHINA</value>
+                <value>USA</value>
+                <value>UK</value>
+                <null/>
+            </list>
+        </property>
+        <property name="addressSet">
+            <set>
+                <value>INDIA</value>
+                <value>Pakistan</value>
+                <value>USA</value>
+                <value>UK</value>
+            </set>
+        </property>
+        <property name="addressMap">
+            <map>
+                <entry key="1" value="INDIA"/>
+                <entry key="2" value="Pakistan"/>
+                <entry key="3" value="USA"/>
+                <entry key="4" value="UK"/>
+                <entry key="5" value=""/>
+            </map>
+        </property>
+        <property name="addressProp">
+            <props>
+                <prop key="one">INDIA</prop>
+                <prop key="two">Pakistan</prop>
+                <prop key="three">USA</prop>
+                <prop key="four">USA</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
