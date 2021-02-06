@@ -1,10 +1,7 @@
-import com.alibaba.fastjson.JSONObject;
 import com.aliyun.vod.upload.impl.UploadAttachedMediaImpl;
 import com.aliyun.vod.upload.impl.UploadImageImpl;
 import com.aliyun.vod.upload.impl.UploadM3u8FileImpl;
 import com.aliyun.vod.upload.impl.UploadVideoImpl;
-import com.aliyun.vod.upload.req.*;
-import com.aliyun.vod.upload.resp.*;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

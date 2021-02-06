@@ -4,8 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 !**/src/test/java/**
-
-!**/service-oss/**/application.*
+!**/application.*
 
 ### STS ###
 .apt_generated
