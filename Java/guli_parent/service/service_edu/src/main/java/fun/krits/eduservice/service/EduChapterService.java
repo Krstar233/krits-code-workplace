@@ -2,6 +2,9 @@ package fun.krits.eduservice.service;
 
 import fun.krits.eduservice.entity.EduChapter;
 import com.baomidou.mybatisplus.extension.service.IService;
+import fun.krits.eduservice.entity.vo.ChapterVo;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface EduChapterService extends IService<EduChapter> {
 
+    List<ChapterVo> getChapterVideo(String courseId);
+
+    Boolean deleteChapter(String chapterId);
 }

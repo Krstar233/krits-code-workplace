@@ -60,12 +60,17 @@ public class EduSubjectController {
         if (subNodes == null)
             return;
         if (!nodeId.equals("0")){
-            map = QuickMap.map().pair("label", vo.getSubject(nodeId).getTitle());
+            map = QuickMap.map()
+                    .pair("label", vo.getSubject(nodeId).getTitle())
+                    .pair("id", nodeId);
             vo.getJsonMap().add(map);
         }
         for (EduSubject node : subNodes){
             if (map != null)
-                map.pairWithList("children", QuickMap.map().pair("label", node.getTitle()));
+                map.pairWithList("children",
+                        QuickMap.map()
+                        .pair("label", node.getTitle())
+                        .pair("id", node.getId()));
             dfs(node.getId(), vo);
         }
     }

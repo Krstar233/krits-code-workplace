@@ -3,7 +3,11 @@ package fun.krits.eduservice.service;
 import fun.krits.eduservice.entity.EduCourse;
 import com.baomidou.mybatisplus.extension.service.IService;
 import fun.krits.eduservice.entity.vo.CourseInfoVo;
+import fun.krits.eduservice.entity.vo.CoursePublishVo;
+import fun.krits.eduservice.entity.vo.CourseTableVo;
 import fun.krits.servicebase.exception.MyException;
+
+import java.util.List;
 
 /**
  * <p>
@@ -14,5 +18,15 @@ import fun.krits.servicebase.exception.MyException;
  * @since 2021-02-01
  */
 public interface EduCourseService extends IService<EduCourse> {
-    void saveCourseInfo(CourseInfoVo vo);
+    String saveCourseInfo(CourseInfoVo vo);
+
+    CourseInfoVo getCourseInfo(String courseId);
+
+    void updateCourseInfo(CourseInfoVo vo);
+
+    CoursePublishVo getPublishCourseInfo(String courseId);
+
+    List<CourseTableVo> findAllCourseTableInfo();
+
+    void removeCourseById(String courseId);
 }

@@ -5,7 +5,6 @@ import fun.krits.eduservice.entity.EduSubject;
 import java.util.*;
 
 public class SubjectTreeDfsVO {
-    // , , ,
     private Map<String, List<EduSubject>> tree;
     private Map<String, Boolean> visit;
     private Map<String, EduSubject> subjectTable;
