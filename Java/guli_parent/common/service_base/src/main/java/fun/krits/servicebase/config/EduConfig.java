@@ -1,14 +1,12 @@
-package fun.krits.eduservice.config;
+package fun.krits.servicebase.config;
 
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("fun.krits.eduservice.mapper")
 public class EduConfig {
 
     //逻辑删除配置插件
@@ -23,3 +21,4 @@ public class EduConfig {
         return new PaginationInterceptor();
     }
 }
+

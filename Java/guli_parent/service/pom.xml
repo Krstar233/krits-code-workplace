@@ -12,6 +12,8 @@
         <module>service_edu</module>
         <module>service-oss</module>
         <module>service_video</module>
+        <module>service_cms</module>
+        <module>service_ucenter</module>
     </modules>
     <artifactId>service</artifactId>
     <packaging>pom</packaging>
