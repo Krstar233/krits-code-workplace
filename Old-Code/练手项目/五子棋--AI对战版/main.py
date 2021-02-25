@@ -157,5 +157,19 @@ class GobangGameTest():
         print("winner =", self.winner)
 
 if __name__ == '__main__':
-    gobang = GobangGameTest()
-    gobang.playGame('db_ai')  # 参数说明： 'r'--玩家先手， 'ai'--ai先手， 'db_ai'--两个ai对战
+    while True:
+        gobang = GobangGameTest()
+        print("选择：")
+        print("A. 我与AI对战，我先下棋")
+        print("B. 我与AI对战，AI先下棋")
+        print("C. AI与AI对战，我看它们下棋")
+        choose = input("请选择：")
+        if choose == 'A':
+            gobang.playGame('r')
+        elif choose == 'B':
+            gobang.playGame('ai')
+        elif choose == 'C':
+            gobang.playGame('db_ai')
+        else:
+            continue;
+      # 参数说明： 'r'--玩家先手， 'ai'--ai先手， 'db_ai'--两个ai对战
